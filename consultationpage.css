@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    html,body{
+        height:100%;
+        width:100%;
+    }
+    *::selection{
+        color:white;
+        background-color:black;
+    }
+    #main{
+        width:100%;
+        background-color: white;
+    }
+    #home{
+        min-height: 100vh;
+        width: 100%;
+        
+    
+    }
+    #home #homemain{
+        width: 100%;
+        padding: 15vw 16vw;
+        
+
+    }
+    #homemain h2{
+        font-weight: 350;
+        letter-spacing: -.1vw;
+        font-size: o.25vw;
+    }
+    .headings{
+        display:flex;
+        gap: 40px;
+    }
+    #homemain  .headings h1{
+        color:transparent;
+        -webkit-text-stroke: 1px #000;
+        font-size: 5vw;
+        font-weight: 900;
+        letter-spacing: -1px;
+        line-height: 1;
+    }
+ 
