@@ -48,7 +48,7 @@ textarea {
   resize: vertical;
 }
 label {
-  padding: 12px 12px 12px 0;
+  padding: 12px 12px 12px 40px;
   display: inline-block;
 }
 input[type="submit"] {
@@ -72,8 +72,8 @@ input[type="submit"]:hover {
 
 .col-25 {
   float: left;
-  width: 25%;
-  margin-top: 6px;
+  width: 20%;
+  margin-top: 2px;
 }
 .col-75 {
   float: left;
@@ -93,4 +93,24 @@ input[type="submit"]:hover {
     width: 100%;
     margin-top: 0;
   }
+}
+#page4{
+  height:22vh;
+  width:100%;
+  background-color: #FFFFFF;
+  
+}
+a:link,a:visited{
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+}
+
+a:active {
+  color: #000000;
+}
+#links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }

@@ -32,12 +32,19 @@ body{
     padding: 0 3vw;
     padding-top: 25vh;
 }
+
 #page11 h1{
-   font-family:Arial, Helvetica, sans-serif;
-   font-size:13vw; 
+    padding: 50px;
+   font-family:  Courier, Helvetica, sans-serif;
+   font-size:8vw; 
    text-transform:uppercase;
-   
+   text-align: center;
    line-height:15vh;
+}
+#head1 {
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 50px;
 }
 #video-container{
     height:100vh;
@@ -46,6 +53,7 @@ body{
     position: relative;
 }
 #video-container video{
+    border-radius: 50px;
     height:100%;
     width:100%;
     object-fit: cover;
@@ -71,12 +79,14 @@ body{
     
 }
 #page44 h5{
-    padding:20 5px;
+    padding:5px 5px 5px 5px;
+    text-align: center;
+    font-size: 50px;
 }
 hr {
     display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
@@ -103,19 +113,108 @@ hr {
     align-items:center;
     justify-content: center;
 }
+img {
+    border-radius: 50px;
+}
 #page22 .elem img{
+    padding: 50px;
+    border-radius: 50px;
     height:100%;
     width:100%;
     object-fit: cover;
     scale:1.2;
 }
 #page22 .elem .dets{
+    #home {
+  width: 100%;
+}
+#home #homemain {
+  width: 100%;
+  padding: 15vw 16vw;
+}
+#homemain h2 {
+  font-weight: 350;
+  letter-spacing: -0.1vw;
+  font-size: 0.25vw;
+}
+.headings {
+  display: flex;
+  gap: 40px;
+}
+#homemain .headings h1 {
+  color: transparent;
+  -webkit-text-stroke: 1px #000;
+  font-size: 5vw;
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+#homelast {
+  padding: 0.5vw 15vw;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+label {
+  padding: 12px 12px 12px 40px;
+  display: inline-block;
+}
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 20%;
+  margin-top: 2px;
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
     height: 60px;
     border-radius: 50px;
     width:70%;
     position:absolute;
     z-index: 9;
-    background-color:palegoldenrod;
+    background-color:#fff;
+    padding: 6px;
 
 }
 #page22 .elem .dets:hover{
@@ -123,7 +222,7 @@ hr {
 
 }
 #page66{
-    min-height: 70vh;
+  min-height: 30vh;
   width: 100%;
   position: relative;
   display: flex;
@@ -131,6 +230,7 @@ hr {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
 #page33{
     min-height:120vh;
     width:100%;
@@ -164,18 +264,17 @@ hr {
     align-items: center;
     justify-content: center;
     color: #F7F7F7;
-    background-color: rgb(234, 225, 225);
+    background-color: #fff;
     padding: 5px;
-  border-radius: 5px;
+  border-radius: 50px;
   text-decoration: none;
   text-align: center;
   text-decoration-color: #fff;
     
 }
 #page55 {
-    height:30vh;
+    height:28vh;
     width:100%;
-    background-color:rgb(127, 4, 4);
     
 }
 
@@ -242,8 +341,7 @@ hr {
         width:70%;
         position:absolute;
         z-index: 9;
-        
-        background-color:palegoldenrod;
+        background-color:#fff;
     
     }
     #page33{
@@ -275,7 +373,24 @@ hr {
         height:100%;
         width:100%;
     }
-
-    
-
 }
+a:link,a:visited{
+    text-decoration: none;
+    color: #000000;
+    background-color: transparent;
+}
+
+a:active {
+    color: #000000;
+}
+
+.elem {
+    text-align: center;
+    font-size: 30px;
+    background-color: #fff;
+}
+#links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }

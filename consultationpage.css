@@ -12,37 +12,106 @@
         color:white;
         background-color:black;
     }
-    #main{
-        width:100%;
-        background-color: white;
-    }
-    #home{
-        min-height: 100vh;
+    #home {
         width: 100%;
-        
-    
-    }
-    #home #homemain{
+      }
+      #home #homemain {
         width: 100%;
         padding: 15vw 16vw;
-        
-
-    }
-    #homemain h2{
+      }
+      #homemain h2 {
         font-weight: 350;
-        letter-spacing: -.1vw;
-        font-size: o.25vw;
-    }
-    .headings{
-        display:flex;
+        letter-spacing: -0.1vw;
+        font-size: 0.25vw;
+      }
+      .headings {
+        display: flex;
         gap: 40px;
-    }
-    #homemain  .headings h1{
-        color:transparent;
+      }
+      #homemain .headings h1 {
+        color: transparent;
         -webkit-text-stroke: 1px #000;
         font-size: 5vw;
         font-weight: 900;
         letter-spacing: -1px;
         line-height: 1;
-    }
- 
+      }
+      #homelast {
+        padding: 0.5vw 15vw;
+      }
+      input[type="text"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      label {
+        padding: 12px 12px 12px 40px;
+        display: inline-block;
+      }
+      input[type="submit"] {
+        background-color: #04aa6d;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      
+      .col-25 {
+        float: left;
+        width: 20%;
+        margin-top: 2px;
+      }
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+      
+      .row::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      @media screen and (max-width: 600px) {
+        .col-25,
+        .col-75,
+        input[type="submit"] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
+    #page4{
+        height:22vh;
+        width:100%;
+        background-color: #FFFFFF;
+        
+      }
+      a:link,a:visited{
+        text-decoration: none;
+        color: #000000;
+        background-color: transparent;
+      }
+      
+      a:active {
+        color: #000000;
+      }
+      #links {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
