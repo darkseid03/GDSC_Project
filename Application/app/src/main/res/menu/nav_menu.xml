@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_carriers"
+        android:title="Career"
+        android:icon="@drawable/carriers" />
+    <item
+        android:id="@+id/menu_book_appointment"
+        android:title="Appointment"
+        android:icon="@drawable/img" />
+    <item
+        android:id="@+id/menu_get_consultation"
+        android:title="Get Consultation"
+        android:icon="@drawable/img_1" />
+
+    <item
+        android:id="@+id/menu_about"
+        android:title="About Us"
+        android:icon="@drawable/about_us" />
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Settings"
+        android:icon="@drawable/img_149360" />
+</menu>

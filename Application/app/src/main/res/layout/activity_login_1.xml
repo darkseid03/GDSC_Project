@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFE"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".LoginActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/login" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gif"
+        android:layout_marginTop="16dp"
+        android:elevation="4dp"
+        android:padding="14dp"
+        android:hint="Email"
+        android:background="@drawable/round_space"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="16dp"
+        android:elevation="4dp"
+        android:padding="14dp"
+        android:background="@drawable/round_space"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/register1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_login"
+        android:fontFamily="sans-serif-black"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center"
+        android:shadowColor="#8BAFFE"
+        android:text="Login"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_login"
+        android:fontFamily="sans-serif-black"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center"
+        android:shadowColor="#8BAFFE"
+        android:text="Signup"
+        android:textColor="#F8F6F6" />
+
+    <Button
+        android:id="@+id/forgot"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+
+        android:background="@drawable/rounded_login"
+        android:fontFamily="sans-serif-black"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center"
+        android:shadowColor="#8BAFFE"
+        android:text="Forgot Password?"
+        android:textColor="#F4F3F3" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forgot"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

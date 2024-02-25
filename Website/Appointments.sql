@@ -1,0 +1,17 @@
+CREATE DATABASE Appointments;
+
+USE Appointments;
+
+CREATE TABLE Users(
+SlNo INT AUTO_INCREMENT PRIMARY KEY,
+Name VARCHAR(100),
+Country VARCHAR(50),
+ContInfo VARCHAR(50)UNIQUE,
+Issue VARCHAR(255)
+);
+
+DESCRIBE Users;
+
+SELECT * FROM Users;
+
+

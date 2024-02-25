@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_career_registration.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9D2E8"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-60dp"
+        android:src="@drawable/download" />
+
+    <TextView
+        android:id="@+id/textCareer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Career"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textCommunity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Become part of our community. Register as a lawyer or counselor."
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnCriminalLawyer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:hint="#F7F7F7"
+            android:padding="16dp"
+            android:text="Criminal Lawyer"
+            android:textColor="@android:color/white"
+            android:textColorHint="#CC1C1D" />
+
+        <Button
+            android:id="@+id/btnCivilLawyer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:hint="#F7F7F7"
+            android:padding="16dp"
+            android:text="Civil Lawyer"
+            android:textColor="@android:color/white"
+            android:textColorHint="#CC1C1D" />
+
+        <Button
+            android:id="@+id/btnOthers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:hint="#F7F7F7"
+            android:padding="16dp"
+            android:text="Others"
+            android:textColor="@android:color/white"
+            android:textColorHint="#CC1C1D" />
+    </LinearLayout>
+
+    <!-- Add any extra elements or information you want -->
+
+</LinearLayout>
