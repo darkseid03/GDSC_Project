@@ -16,7 +16,7 @@ body {
 }
 #home #homemain {
   width: 100%;
-  padding: 15vw 16vw;
+  padding: 15vw 16vw 1vw;
 }
 #homemain h2 {
   font-weight: 350;
@@ -36,7 +36,7 @@ body {
   line-height: 1;
 }
 #homelast {
-  padding: 0.5vw 15vw;
+  padding: 0.5vw 15vw 4vw;
 }
 input[type="text"],
 select,

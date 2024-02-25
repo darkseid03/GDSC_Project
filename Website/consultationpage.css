@@ -17,12 +17,11 @@
       }
       #home #homemain {
         width: 100%;
-        padding: 15vw 16vw;
+        padding: 15vw 16vw 5vw;
       }
       #homemain h2 {
         font-weight: 350;
         letter-spacing: -0.1vw;
-        font-size: 0.25vw;
       }
       .headings {
         display: flex;
