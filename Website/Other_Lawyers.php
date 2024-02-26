@@ -15,7 +15,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $OffAddress= $_POST["OFFADDRESS"];
     $Price= $_POST["PRICE"];
    
-    $sql= "INSERT INTO Users(SLNO,NAME,CONTINFO,BARCOUNNO,PRICE) VALUES('$SlNo','$Name','$ContInfo','$BarCounNo','$OffAddress','$Price')";
+    $sql= "INSERT INTO Users(SLNO,NAME,CONTINFO,BARCOUNNO,OFFADDRESS,PRICE) VALUES('$SlNo','$Name','$ContInfo','$BarCounNo','$OffAddress','$Price')";
     if($conn->query($sql) == TRUE) {
         echo "Other Lawyer Registration Successful";
     }
