@@ -1,4 +1,4 @@
-# GDSC_Project
+# LegalAerie
 GDSC Solution Challenge:-
 <h1 align="center">Hi 👋,We are Team LegalAerie</h1>
 <h3 align="center">Fueling Passion, Crafting Excellence!!!</h3>
